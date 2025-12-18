@@ -1,42 +1,43 @@
 # Expense-Tracker-Python
-A simple console-based Expense Tracker built using Python and OOP concepts.
+The application allows users to record daily expenses, store them permanently using CSV file handling, and analyze their spending. All expense data is saved in a CSV file and automatically loaded when the program is restarted, ensuring data persistence.
 
-This project allows users to add daily expenses, view expense history, calculate total spending, and display category-wise summary.
 Features
+Add Expense
+Users can add an expense by entering the amount, category, and an optional description. The date is generated automatically.
 
-✔ Add New Expense
-Enter amount, category, and description.
+View All Expenses
+Displays all recorded expenses with date, category, amount, and description.
 
-✔ View All Expenses
-Displays a clean list with date, category, and description.
+Total Spending
+Calculates and displays the total amount spent across all expenses.
 
-✔ Calculate Total Spending
-Sums all recorded expenses.
+Category-wise Summary
+Shows total spending for each category such as Food, Travel, Bills, or Shopping.
 
-✔ Category-wise Summary
-Shows how much money you spent on each category (Food, Travel, Shopping, etc.)
+Persistent Data Storage
+Uses CSV file handling to store expenses so that data remains available even after closing and reopening the application.
 
-✔ Fully OOP-Based
-Uses two classes:
-Expense
-ExpenseTracker
-
-✔ Beginner-Friendly & Interview-Ready
-Simple logic + clean structure.
+Object-Oriented Design
+The project is built using two main classes: Expense and ExpenseTracker, following clean and modular OOP principles.
 
 Technologies Used
 Python
-OOP Concepts
-Basic Console UI
+Object-Oriented Programming
+CSV File Handling
+Datetime Module
+OS Module
+Console-based Interface
 
 Sample Output
 ===== Expense Tracker Menu =====
-1. Add Expense
-2. View All Expenses
-3. Total Spending
-4. Category-wise Summary
-5. Exit
+Add Expense
+View All Expenses
+Total Spending
+Category-wise Summary
+Exit
 
-✔ Author
+Author
 Hemant Giri
-Python Developer | Data Science Learner
+Python Developer and Data Science Learner
+
+
