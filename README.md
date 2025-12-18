@@ -30,10 +30,15 @@ Console-based Interface
 
 Sample Output
 ===== Expense Tracker Menu =====
+
 Add Expense
+
 View All Expenses
+
 Total Spending
+
 Category-wise Summary
+
 Exit
 
 Author
